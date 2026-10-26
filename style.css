@@ -2,3 +2,10 @@
 @media(max-width:900px){.hero{gap:20px;min-height:570px}.hero-art{transform:scale(.88);margin:0 -25px}.service-grid{grid-template-columns:repeat(2,1fr)}.work-layout{gap:35px}.contact-layout{gap:45px}.nav-links{gap:18px}}
 @media(max-width:680px){.container{width:min(100% - 32px,520px)}.nav{height:68px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:68px;left:0;right:0;padding:20px 22px 24px;background:#11111b;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:17px}.nav-links.open{display:flex}.nav-cta{text-align:center}.hero{grid-template-columns:1fr;padding-top:65px;padding-bottom:35px;gap:5px}.hero h1{font-size:43px;letter-spacing:-1.8px}.hero-sub{font-size:14px}.hero-art{height:380px;transform:scale(.82);margin:-10px -25px 0}.art-card-back{right:10px}.art-card-front{left:15px}.chip-one{left:0}.service-strip .strip-inner{justify-content:center;min-height:80px;gap:12px 15px}.strip-inner span{font-size:8px}.strip-inner b{font-size:12px}.section{padding-top:78px;padding-bottom:78px}.section-heading{display:block;margin-bottom:28px}.section-intro{margin-top:20px}.section h2,.work-copy h2{font-size:36px}.service-grid{gap:10px}.service-card{padding:18px 15px;min-height:270px}.service-card h3{font-size:16px}.service-card p{font-size:11px}.card-number{right:14px;top:22px}.service-icon{margin-bottom:22px}.work-section{padding:75px 0}.work-layout{grid-template-columns:1fr;gap:40px}.sample-board{grid-template-rows:165px 165px;gap:9px}.sample-title{font-size:39px}.small-title{font-size:25px}.pricing-grid{grid-template-columns:1fr;gap:20px}.price-card{min-height:unset}.center-heading h2{font-size:34px}.contact-section{padding:75px 0}.contact-layout{grid-template-columns:1fr;gap:35px}.contact-layout h2{font-size:45px}.contact-form{padding:21px}.footer-inner{flex-wrap:wrap;justify-content:center;text-align:center}.footer p{width:100%;order:3;margin:0}.copyright{width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+.site-logo {
+  width: 150px;
+  height: 55px;
+  object-fit: contain;
+  display: block;
+}
